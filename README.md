@@ -66,42 +66,6 @@ The app helps users manage personal and household finances through expense track
 
 ---
 
-# 📂 Project Structure
-
-com.velvetwallet.app
-│
-├── data
-│   ├── Expense.kt
-│   ├── ExpenseDao.kt
-│   ├── ExpenseDatabase.kt
-│   └── CategoryTotal.kt
-│
-├── repository
-│   └── ExpenseRepository.kt
-│
-├── ui
-│   ├── MainActivity.kt
-│   ├── AddExpenseActivity.kt
-│   ├── ExpenseListActivity.kt
-│   ├── AnalyticsActivity.kt
-│   ├── SettingsActivity.kt
-│   ├── SearchActivity.kt
-│   ├── PinActivity.kt
-│   ├── SplashActivity.kt
-│   └── ExpenseAdapter.kt
-│
-├── utils
-│   ├── CsvExporter.kt
-│   ├── InsightEngine.kt
-│   └── PredictionEngine.kt
-│
-└── viewmodel
-    ├── ExpenseViewModel.kt
-    └── ExpenseViewModelFactory.kt
-````
-
----
-
 # 🚀 Installation
 
 ## Clone the repository
