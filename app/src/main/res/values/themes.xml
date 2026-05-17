@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main App Theme -->
+    <style name="Theme.VelvetWallet"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/purple_700</item>
+
+        <!-- Disable Default ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.VelvetWallet.Splash"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+
+    </style>
+
+    <!-- Toolbar Overlay -->
+    <style name="Theme.VelvetWallet.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Popup Overlay -->
+    <style name="Theme.VelvetWallet.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

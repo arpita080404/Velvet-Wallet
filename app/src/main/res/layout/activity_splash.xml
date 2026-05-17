@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient_splash"
+    android:padding="32dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/splash_logo"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImage" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Velvet Wallet"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.05" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Your personal finance partner"
+        android:textSize="15sp"
+        android:textColor="#CCE9D5FE"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="By Arpita Verma"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:indeterminateTint="#FFFFFF" />
+
+</LinearLayout>

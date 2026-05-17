@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient_splash"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvPinTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter PIN"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPinSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="40dp"
+        android:text="Enter your PIN to continue"
+        android:textColor="#CCFFFFFF"
+        android:textSize="14sp" />
+
+    <!-- PIN Dots -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="48dp">
+
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginHorizontal="10dp"
+            android:alpha="0.3"
+            android:background="@drawable/bg_pin_dot" />
+
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginHorizontal="10dp"
+            android:alpha="0.3"
+            android:background="@drawable/bg_pin_dot" />
+
+        <View
+            android:id="@+id/dot3"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginHorizontal="10dp"
+            android:alpha="0.3"
+            android:background="@drawable/bg_pin_dot" />
+
+        <View
+            android:id="@+id/dot4"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginHorizontal="10dp"
+            android:alpha="0.3"
+            android:background="@drawable/bg_pin_dot" />
+    </LinearLayout>
+
+    <!-- Number Pad -->
+    <GridLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn4"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn5"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn6"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn7"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn8"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn9"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFingerprint"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="Bio"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn0"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:text="DEL"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp" />
+
+    </GridLayout>
+
+</LinearLayout>

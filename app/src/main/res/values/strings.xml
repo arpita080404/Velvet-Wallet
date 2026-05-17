@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Velvet Wallet</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_analytics">Analytics</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_add_expense">Add Transaction</string>
+    <string name="title_edit_expense">Edit Transaction</string>
+    <string name="title_search">Search</string>
+    <string name="title_pin">PIN Lock</string>
+
+    <string name="label_income">Income</string>
+    <string name="label_expense">Expense</string>
+    <string name="label_balance">Net Balance</string>
+    <string name="label_budget">Monthly Budget</string>
+    <string name="label_savings">Savings</string>
+    <string name="label_recurring">Recurring</string>
+
+    <string name="hint_title">Title</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_notes">Notes (optional)</string>
+    <string name="hint_search">Search by title or category…</string>
+
+    <string name="action_add">Add Transaction</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_export_csv">Export CSV</string>
+    <string name="action_clear_data">Clear All Data</string>
+    <string name="action_save_settings">Save Settings</string>
+
+    <string name="msg_no_transactions">No transactions yet.\nTap + to add one.</string>
+    <string name="msg_no_results">No results found</string>
+    <string name="msg_deleted">Transaction deleted</string>
+    <string name="msg_undo">Undo</string>
+    <string name="msg_settings_saved">Settings saved</string>
+    <string name="msg_data_cleared">All data cleared</string>
+    <string name="msg_export_success">Exported to Downloads folder</string>
+
+    <string name="confirm_delete_title">Delete Transaction</string>
+    <string name="confirm_delete_all_title">Delete All Transactions</string>
+    <string name="confirm_clear_title">Clear All Data</string>
+    <string name="confirm_clear_msg">This will permanently delete all transactions and reset settings.</string>
+    <style name="CircleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">110dp</item>
+    </style>
+    <string name="biometric_title">Velvet Wallet</string>
+    <string name="biometric_subtitle">Authenticate to continue</string>
+    <string name="biometric_negative">Use PIN</string>
+</resources>
